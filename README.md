@@ -1,11 +1,11 @@
 # Heap-Allocator
-# Learning Goals
+#### Learning Goals
 This assignment gives you a chance to implement a core piece of functionality that you've relied on all quarter - a heap allocator! This assignment will help you:
 - appreciate the complexity and tradeoffs in implementing a heap allocator
 - further develop your pointer and debugging skills
 - bring together all of your CS107 skills and knowledge
 - you will implement two different heap allocator designs; an implicit free list allocator and an explicit free list allocator. This assignment leaves room for you to experiment and decide between different possible approaches for implementing these allocators to balance various tradeoffs - beyond the requirements listed in this spec, you are free to design your allocators in the best way you see fit!
-# Allocator Scripts
+##### Allocator Scripts
 - An allocator script is a file that contains a sequence of requests in a compact text-based format. The three request types are a (allocate) r(reallocate) and f (free). Each request has an id-number that can be referred to in a subsequent realloc or free.
 a id-number size
 r id-number size
